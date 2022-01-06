@@ -1,0 +1,128 @@
+*{
+    background-color: rgb(181, 223, 216);
+}
+
+body{
+    width: 1700px;
+}
+
+header{
+   
+    background-color: white;
+    overflow: auto;
+    border: 1px solid white;
+
+    height : 50px;
+    margin : 20px;
+    padding: 20px;
+}
+
+.menu{
+    background-color: white;
+    float: right;
+    margin: 5px;
+}
+
+.menu>button
+{
+    color: blue;
+    background-color: rgb(181, 223, 216);
+    height: 40px;
+    width: 200px;
+    margin-left : 10px;
+    border: 1px solid rgb(181, 223, 216);
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.body1
+{
+    background-color: white;
+    height: 800px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.body1>*
+{
+    display: inline-block;
+    background-color: white;
+}
+
+.body1>span{
+    margin-bottom: 30px;
+}
+
+.body1>button{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(181, 223, 216);
+    border: 1px solid rgb(181, 223, 216);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.body1>img{
+    margin-top: 20px;
+    cursor: grab;
+}
+
+footer{
+    /* clear: both; */
+    /* position: relative; */
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+}
+
+footer>a{
+    background-color: white;
+}
+
+.first{
+    width: 1650px;
+    margin: 20px;
+    background-color: white;
+    display: inline-block;
+    position : relative
+}
+
+.first>img{
+    margin: 50px;
+    border: 2px solid black;
+}
+
+.first>.explain{
+    background-color: white;
+    position: absolute;
+    top: 25px;
+    left: 700px;
+}
+
+.explain>h3
+{
+    background-color: white;
+}
+
+.about_me_text {
+    margin: 20px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    /* height: 500px; */
+}
+
+.about_me_text *{
+    background-color: inherit;
+}
+
+.about_me_text>div{
+    /* margin-left: 50px; */
+    /* position: absolute; */
+    top: 100px;
+    left: 100px;
+}
